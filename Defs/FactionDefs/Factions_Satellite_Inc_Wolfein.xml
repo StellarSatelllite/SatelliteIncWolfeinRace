@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-  <FactionDef Name="Wolfein_PlayerFaction" ParentName="PlayerFactionBase">
-    <defName>Wolfein_PlayerFaction</defName>
-    <label>Wolfein's new base</label>
-    <description>A newly established Wolfein settlement.</description>
+  <FactionDef Name="Satellite_Inc_Wolfein_PlayerFaction" ParentName="PlayerFactionBase">
+    <defName>Satellite_Inc_Wolfein_PlayerFaction</defName>
+    <label>Satellite Inc's new base</label>
+    <description>.</description>
     <settlementTexturePath>Wolfein/Faction/FactionIcon_1</settlementTexturePath>
     <categoryTag>Wolfein_PlayerFaction</categoryTag>
-    <basicMemberKind>Wolfein_Colonist</basicMemberKind>
+    <basicMemberKind>Satellite_Inc_Wolfein_Colonist</basicMemberKind>
     <pawnSingular>wolfein inhabitant</pawnSingular>
     <pawnsPlural>wolfein inhabitants</pawnsPlural>
     <isPlayer>true</isPlayer>
@@ -59,19 +58,19 @@
     </apparelStuffFilter>
   </FactionDef>
 
-  <!-- 用于巨企敌对开局 -->
-  <FactionDef ParentName="Wolfein_PlayerFaction">
-    <defName>Wolfein_PlayerFaction_MegaCorpHostile</defName>
-    <label>Wolfein's new base</label>
-    <description>A newly established Wolfein outpost built to avoid the surveillance of the MegaCorp.</description>
+  <!-- Player factions hostile to Satellite Inc. -->
+  <FactionDef ParentName="Satellite_Inc_Wolfein_PlayerFaction">
+    <defName>Wolfein_PlayerFaction_Satellite_Inc_Hostile</defName>
+    <label>Satellite_Inc_Wolfein's new base</label>
+    <description>.</description>
   </FactionDef>
 
-  <!-- 沃芬军企 -->
-  <FactionDef Name="Wolfein_FactionBase_MegaCorp" ParentName="FactionBase">
-    <defName>Wolfein_Faction_MegaCorp</defName>
-    <label>Wolfein Mega Corp</label>
-    <description>MegaCorp, officially known as the Wolfein MegaCorp, handles all aspects of a Wolfein's life, from birth to death. As the name suggests, its primary focus is on developing the military-industrial sector to satisfy the board's endless expansion demands.</description>
-    <categoryTag>Wolfein_Faction</categoryTag>
+  <!-- Satellite Inc -->
+  <FactionDef Name="Wolfein_FactionBase_Satellite_Inc" ParentName="FactionBase">
+    <defName>Wolfein_Faction_Satellite_Inc</defName>
+    <label>Satellite Inc</label>
+    <description>.</description>
+    <categoryTag>Satellite_Inc_Wolfein_Faction</categoryTag>
     <colorSpectrum>
       <li>(177,31,9)</li>
     </colorSpectrum>
@@ -319,24 +318,26 @@
     <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
   </FactionDef>
 
-  <FactionDef ParentName="Wolfein_FactionBase_MegaCorp">
-    <defName>Wolfein_Faction_Rebel</defName>
-    <label>Wolfein Resistance army</label>
-    <description>The Wolfein Resistance Army is primarily driven by the goal of overthrowing the MegaCorp’s rule over the Wolfein people. Its members come from all walks of life—ranging from former corporate employees to hardened criminals—truly a reflection of the entire society. Rumors even suggest that some high-ranking figures within the ResistanceArmy are descendants of the old royal bloodline. Ultimately, due to their extreme methods of pursuing “justice,” the ResistanceArmy holds a poor reputation even among Wolfeins themselves. But then again, the Wolfein people don’t have many choices left.</description>
+  <!--Comet Inc.-->
+
+  <FactionDef ParentName="Wolfein_FactionBase_Satellite_Inc">
+    <defName>Satellite_Inc_Wolfein_Faction_Comet_Inc</defName>
+    <label>Comet Inc</label>
+    <description>.</description>
     <colorSpectrum Inherit="false">
       <li>(189,151,076)</li>
     </colorSpectrum>
     <listOrderPriority>247</listOrderPriority>
-    <hidden>true</hidden>
+    <hidden>false</hidden>
     <canMakeRandomly>true</canMakeRandomly>
-    <canRequestOrbitalTrader>false</canRequestOrbitalTrader>
-    <canSiege>false</canSiege>
+    <canRequestOrbitalTrader>true</canRequestOrbitalTrader>
+    <canSiege>true</canSiege>
     <autoFlee>true</autoFlee>
     <canStageAttacks>true</canStageAttacks>
-    <leaderTitle>leader</leaderTitle>
+    <leaderTitle>CEO</leaderTitle>
     <factionIconPath>Wolfein/Faction/FactionIcon_3</factionIconPath>
     <naturalEnemy>true</naturalEnemy>
-    <permanentEnemy>true</permanentEnemy>
+    <permanentEnemy>false</permanentEnemy>
     <requiredPreceptsOnly>true</requiredPreceptsOnly>
     <raidCommonalityFromPointsCurve Inherit="false">
       <points>
@@ -362,60 +363,4 @@
       </li>
     </pawnGroupMakers>
   </FactionDef>
-
-  <FactionDef ParentName="FactionBase">
-    <defName>Wolfein_OutlanderRefugee</defName>
-    <label>Wolfein refugee group</label>
-    <pawnSingular>refugee</pawnSingular>
-    <pawnsPlural>refugees</pawnsPlural>
-    <categoryTag>OutlanderRefugee</categoryTag>
-    <canSiege>false</canSiege>
-    <canStageAttacks>false</canStageAttacks>
-    <hidden>true</hidden>
-    <description>A group of Wolfein wanderers claiming to be homeless.</description>
-    <factionIconPath>World/WorldObjects/Expanding/SettlementTemporary</factionIconPath>
-    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
-    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-    <disallowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
-    </disallowedMemes>
-    <xenotypeSet>
-      <xenotypeChances>
-        <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0.05</Neanderthal>
-        <Hussar MayRequire="Ludeon.RimWorld.Biotech">0.05</Hussar>
-        <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0.05</Pigskin>
-        <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0.05</Yttakin>
-        <Genie MayRequire="Ludeon.RimWorld.Biotech">0.05</Genie>
-        <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0.05</Dirtmole>
-        <Highmate MayRequire="Ludeon.RimWorld.Biotech">0.025</Highmate>
-        <Starjack MayRequire="Ludeon.RimWorld.Biotech,Ludeon.RimWorld.Odyssey">0.025</Starjack>
-      </xenotypeChances>
-    </xenotypeSet>
-    <colorSpectrum>
-      <li>(0.93, 0.39, 0.32)</li>
-      <li>(0.35, 0.90, 0.57)</li>
-      <li>(0.25, 0.66, 0.94)</li>
-      <li>(0.98, 0.75, 0.37)</li>
-      <li>(0.97, 0.62, 0.52)</li>
-    </colorSpectrum>
-    <generateNewLeaderFromMapMembersOnly>true</generateNewLeaderFromMapMembersOnly>
-    <leaderTitle>leader</leaderTitle>
-    <requiredCountAtGameStart>0</requiredCountAtGameStart>
-    <mustStartOneEnemy>false</mustStartOneEnemy>
-    <techLevel>Industrial</techLevel>
-    <basicMemberKind>Wolfein_MegaCorpCivilian</basicMemberKind>
-    <backstoryFilters>
-      <li>
-        <categories>
-          <li>Wolfein_ChildGeneral</li>
-          <li>Wolfein_General</li>
-        </categories>
-        <commonality>1</commonality>
-      </li>
-    </backstoryFilters>
-    <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
-  </FactionDef>
-
 </Defs>
