@@ -1,0 +1,79 @@
+# ==========================================
+# RimWorld Mod DLL Development (.NET / VSCode)
+# ==========================================
+
+# Build outputs
+bin/
+obj/
+out/
+artifacts/
+
+# User / IDE settings
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Rider / Visual Studio leftovers
+.idea/
+.vs/
+*.suo
+*.user
+*.userprefs
+*.csproj.user
+
+# Test / coverage
+TestResults/
+coverage/
+*.coverage
+*.trx
+
+# Generated assemblies / symbols
+*.pdb
+*.mdb
+
+# If copying build result directly into mod folder,
+# ignore generated Assemblies output
+Assemblies/*.dll
+Assemblies/*.pdb
+
+# If using symlink/junction for local RimWorld Mods folder
+LocalMods/
+SteamMods/
+
+# Published / packaged releases
+Release/
+Dist/
+Publish/
+
+# ==========================================
+# Keep important source files
+# ==========================================
+!About/
+!Defs/
+!Languages/
+!Patches/
+!Textures/
+!Sounds/
+!Source/
+!Assemblies/README.md

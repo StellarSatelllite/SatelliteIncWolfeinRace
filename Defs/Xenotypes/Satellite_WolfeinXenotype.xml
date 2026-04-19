@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <XenotypeDef ParentName="Wolfein_Xenotype">
+            <defName>Wolfein_Xenotype_Satellite_Inc</defName>
+            <label>Satellite Wolfein</label>
+            <description>.</description>
+            <displayPriority>1534</displayPriority>
+            <genes Inherit="false">
+                <li>Wolfein_MeatLover</li>
+                <li>Wolfein_MoonPhase</li>
+                <li>Wolfein_NightAdaptation</li>
+                <li>MoveSpeed_VeryQuick</li>
+                <li>DarkVision</li>
+                <li>Wolfein_FireWeakness</li>
+                <li>Wolfein_ToxicEnvironmentResistance_Weak</li>
+                <li>Gene_1_Satellite_Race</li>
+                <li>Gene_2_Satellite_Race</li>
+                <li>Robust</li>
+                <li>Learning_Fast</li>
+                <li>Pain_Reduced</li>
+            </genes>
+        </XenotypeDef>
+</Defs>

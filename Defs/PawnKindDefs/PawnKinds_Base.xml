@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <PawnKindDef Name="Satellite_Inc_Wolfein_PawnBase" Abstract="True">
+        <race>Satellite_Inc_Wolfein_Race</race>
+        <fixedGender>Female</fixedGender>
+        <defaultFactionType>Wolfein_PlayerFaction</defaultFactionType>
+        <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+        <invNutrition>0</invNutrition>
+        <gearHealthRange>1.0</gearHealthRange>
+        <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+        <initialWillRange>3~5</initialWillRange>
+        <initialResistanceRange>12~20</initialResistanceRange>
+        <maxGenerationAge>20</maxGenerationAge>
+        <minGenerationAge>19</minGenerationAge>
+        <styleItemTags>
+        <li>
+            <tag>Wolfein</tag>
+            <baseWeight>1</baseWeight>
+            <weightFactor>1</weightFactor>
+        </li>
+        </styleItemTags>
+        <xenotypeSet>
+        <xenotypeChances>
+            <Wolfein_Xenotype_Satellite_Inc MayRequire="Ludeon.RimWorld.Biotech">1</Wolfein_Xenotype_Satellite_Inc>
+            <Baseliner MayRequire="Ludeon.RimWorld.Biotech">0</Baseliner>
+            <Dirtmole MayRequire="Ludeon.RimWorld.Biotech">0</Dirtmole>
+            <Genie MayRequire="Ludeon.RimWorld.Biotech">0</Genie>
+            <Hussar MayRequire="Ludeon.RimWorld.Biotech">0</Hussar>
+            <Sanguophage MayRequire="Ludeon.RimWorld.Biotech">0</Sanguophage>
+            <Neanderthal MayRequire="Ludeon.RimWorld.Biotech">0</Neanderthal>
+            <Pigskin MayRequire="Ludeon.RimWorld.Biotech">0</Pigskin>
+            <Impid MayRequire="Ludeon.RimWorld.Biotech">0</Impid>
+            <Waster MayRequire="Ludeon.RimWorld.Biotech">0</Waster>
+            <Yttakin MayRequire="Ludeon.RimWorld.Biotech">0</Yttakin>
+            <Highmate MayRequire="Ludeon.RimWorld.Biotech">0</Highmate>
+        </xenotypeChances>
+        </xenotypeSet>
+        <useFactionXenotypes>false</useFactionXenotypes>
+            <abilities>
+                <li>Wolfein_Sprint</li>
+            </abilities>
+    </PawnKindDef>
+</Defs>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <GeneCategoryDef>
+		<defName>Satellite_Wolfein_Gene</defName>
+		<label>Satellite Wolfein</label>
+		<displayPriorityInXenotype>533</displayPriorityInXenotype>
+	</GeneCategoryDef>
+
+    <GeneDef>
+		<defName>Gene_1_Satellite_Race</defName>
+		<label>Gene_1_Satellite_Race</label>
+		<labelShortAdj>Gene_1_Satellite_Race</labelShortAdj>
+		<description>.</description>
+		<iconPath></iconPath>
+		<displayOrderInCategory>0</displayOrderInCategory>
+		<marketValueFactor>2.5</marketValueFactor>
+		<statFactors>
+		</statFactors>
+		<biostatCpx>15</biostatCpx>
+		<biostatMet>15</biostatMet>
+		<displayCategory>Satellite_Wolfein_Gene</displayCategory>
+	</GeneDef>
+
+    <GeneDef>
+		<defName>Gene_2_Satellite_Race</defName>
+		<label>Satellite Wolfein skin</label>
+		<labelShortAdj>roren skin</labelShortAdj>
+		<description>.</description>
+		<iconPath></iconPath>
+		<skinColorOverride>(255, 255, 255)</skinColorOverride>
+		<randomBrightnessFactor>0</randomBrightnessFactor>
+		<displayOrderInCategory>1</displayOrderInCategory>
+		<marketValueFactor>1.2</marketValueFactor>
+		<statOffsets>
+			<IncomingDamageFactor>-0.20</IncomingDamageFactor>
+			<PawnBeauty>5</PawnBeauty>
+		</statOffsets>
+		<biostatCpx>10</biostatCpx>
+		<displayCategory>Satellite_Wolfein_Gene</displayCategory>
+	</GeneDef>
+</Defs>
