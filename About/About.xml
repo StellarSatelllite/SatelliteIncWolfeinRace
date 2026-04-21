@@ -7,7 +7,28 @@
     <li>1.6</li>
   </supportedVersions>
   <description>
-[STL]Satellite Inc Wolfein Race ver 0.1.1
+[STL]Satellite Inc Wolfein Race ver 0.2.0
+
+This mod adds the Satellite Inc Wolfein Race, a variant of the Wolfein Race.
+We plan to add another variant, the Comet Inc Wolfein Race, in the future.
+
+They belong to the unique factions Satellite Inc and Comet Inc, specific to this mod.
+
+They are armed with equipment added by the Satellite Inc Mod.
+We also plan to create a Comet Inc Mod.
+
+*Note: Remember that the equipment from the Satellite Inc Mod is overpowered in a vanilla environment.
+
+Mod Installation Order:
+Harmony
+Core
+DLCs
+Humanoid Alien Races
+Ancot Library
+Wolfein Race
+Wolfein Race Gene Patch
+Astrallium Core
+[STL] Satellite Inc Mod
   </description>
   <modDependencies>
     <li>
@@ -41,7 +62,7 @@
     </li>
     <li>
 		  <packageId>Stellar.SatelliteIncMod</packageId>
-		  <displayName>Stellar.SatelliteIncMod</displayName>
+		  <displayName>[STL]Satellite Inc Mod</displayName>
 		  <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3707543602</steamWorkshopUrl>
     </li>
   </modDependencies>

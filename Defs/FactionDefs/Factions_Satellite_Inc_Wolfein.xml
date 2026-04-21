@@ -143,19 +143,19 @@
       </thingDefs>
     </apparelStuffFilter>
     <caravanTraderKinds>
-      <li>Caravan_Wolfein_ArmsDealer</li>
-      <li>Caravan_Outlander_BulkGoods</li>
+      <li>Satellite_Inc_Caravan_Wolfein_ArmsDealer</li>
+      <li>Satellite_Inc_Wolfein_Orbital_BulkGoods</li>
       <li>Caravan_Outlander_Exotic</li>
       <li>Caravan_Outlander_PirateMerchant</li>
     </caravanTraderKinds>
     <orbitalTraderKinds>
-      <li>Wolfein_Orbital_BulkGoods</li>
+      <li>Satellite_Inc_Wolfein_Orbital_BulkGoods</li>
     </orbitalTraderKinds>
     <visitorTraderKinds>
       <li>Visitor_Outlander_Standard</li>
     </visitorTraderKinds>
     <baseTraderKinds>
-      <li>Wolfein_MegaCorp_BaseStandard</li>
+      <li>Wolfein_Satellite_Inc_BaseStandard</li>
     </baseTraderKinds>
     <raidCommonalityFromPointsCurve>
       <points>
@@ -181,7 +181,7 @@
         <kindDef>Combat</kindDef>
         <commonality>40</commonality>
         <options>
-          <Wolfein_MegaCorpArmedClerk>20</Wolfein_MegaCorpArmedClerk>
+          <Wolfein_Satellite_IncArmedClerk>20</Wolfein_Satellite_IncArmedClerk>
           <Wolfein_Mechanoid_MilitaryA>8</Wolfein_Mechanoid_MilitaryA>
           <Wolfein_Mechanoid_MilitaryB>8</Wolfein_Mechanoid_MilitaryB>
           <Wolfein_Mechanoid_MilitaryD>3</Wolfein_Mechanoid_MilitaryD>
@@ -194,8 +194,8 @@
         <kindDef>Combat</kindDef>
         <commonality>1</commonality>
         <options>
-          <Wolfein_MegaCorpRegionalSupervisor>1</Wolfein_MegaCorpRegionalSupervisor>
-          <Wolfein_MegaCorpArmedClerk>20</Wolfein_MegaCorpArmedClerk>
+          <Wolfein_Satellite_Inc_RegionalSupervisor>1</Wolfein_Satellite_Inc_RegionalSupervisor>
+          <Wolfein_Satellite_IncArmedClerk>20</Wolfein_Satellite_IncArmedClerk>
           <Wolfein_Mechanoid_MilitaryA>8</Wolfein_Mechanoid_MilitaryA>
           <Wolfein_Mechanoid_MilitaryB>8</Wolfein_Mechanoid_MilitaryB>
           <Wolfein_Mechanoid_MilitaryD>3</Wolfein_Mechanoid_MilitaryD>
@@ -209,9 +209,9 @@
         <kindDef>Combat</kindDef>
         <commonality>100</commonality>
         <options>
-          <Wolfein_MegaCorpSurgeon>1</Wolfein_MegaCorpSurgeon>
-          <Wolfein_MegaCorpHacker>1</Wolfein_MegaCorpHacker>
-          <Wolfein_MegaCorpGuard>20</Wolfein_MegaCorpGuard>
+          <Wolfein_Satellite_Inc_Surgeon>1</Wolfein_Satellite_Inc_Surgeon>
+          <Wolfein_Satellite_Inc_Hacker>1</Wolfein_Satellite_Inc_Hacker>
+          <Wolfein_Satellite_Inc_Guard>20</Wolfein_Satellite_Inc_Guard>
           <Wolfein_Mechanoid_MilitaryA>8</Wolfein_Mechanoid_MilitaryA>
           <Wolfein_Mechanoid_MilitaryB>8</Wolfein_Mechanoid_MilitaryB>
           <Wolfein_Mechanoid_MilitaryD>3</Wolfein_Mechanoid_MilitaryD>
@@ -225,12 +225,12 @@
         <kindDef>Combat</kindDef>
         <commonality>40</commonality>
         <options>
-          <Wolfein_MegaCorpScout>4</Wolfein_MegaCorpScout>
-          <Wolfein_MegaCorpSurgeon>1</Wolfein_MegaCorpSurgeon>
-          <Wolfein_MegaCorpHacker>1</Wolfein_MegaCorpHacker>
-          <Wolfein_MegaCorpSniper>2</Wolfein_MegaCorpSniper>
-          <Wolfein_MegaCorpSupport>4</Wolfein_MegaCorpSupport>
-          <Wolfein_MegaCorpVanguard>10</Wolfein_MegaCorpVanguard>
+          <Wolfein_Satellite_Inc_Scout>4</Wolfein_Satellite_Inc_Scout>
+          <Wolfein_Satellite_Inc_Surgeon>1</Wolfein_Satellite_Inc_Surgeon>
+          <Wolfein_Satellite_Inc_Hacker>1</Wolfein_Satellite_Inc_Hacker>
+          <Wolfein_Satellite_Inc_Sniper>2</Wolfein_Satellite_Inc_Sniper>
+          <Wolfein_Satellite_Inc_Support>4</Wolfein_Satellite_Inc_Support>
+          <Wolfein_Satellite_Inc_Vanguard>10</Wolfein_Satellite_Inc_Vanguard>
           <Wolfein_Mechanoid_MilitaryA>5</Wolfein_Mechanoid_MilitaryA>
           <Wolfein_Mechanoid_MilitaryB>5</Wolfein_Mechanoid_MilitaryB>
           <Wolfein_Mechanoid_MilitaryC>5</Wolfein_Mechanoid_MilitaryC>
@@ -245,8 +245,8 @@
         <kindDef>Combat</kindDef>
         <commonality>20</commonality>
         <options>
-          <Wolfein_MegaCorpSupport>10</Wolfein_MegaCorpSupport>
-          <Wolfein_MegaCorpGuard>20</Wolfein_MegaCorpGuard>
+          <Wolfein_Satellite_Inc_Support>10</Wolfein_Satellite_Inc_Support>
+          <Wolfein_Satellite_Inc_Guard>20</Wolfein_Satellite_Inc_Guard>
           <Wolfein_Mechanoid_MilitaryC>10</Wolfein_Mechanoid_MilitaryC>
           <Wolfein_Mechanoid_MilitaryB>10</Wolfein_Mechanoid_MilitaryB>
           <Wolfein_Mechanoid_MilitaryE>1</Wolfein_Mechanoid_MilitaryE>
@@ -259,7 +259,7 @@
         <!--AIPT小队（调查组）-->
         <kindDef>Peaceful</kindDef>
         <options>
-          <Wolfein_AIPT_InvestigationTeamMember>5</Wolfein_AIPT_InvestigationTeamMember>
+          <Wolfein_Satellite_Inc_AIPT_InvestigationTeamMember>5</Wolfein_Satellite_Inc_AIPT_InvestigationTeamMember>
         </options>
       </li>
 
@@ -268,24 +268,24 @@
         <kindDef>Combat</kindDef>
         <commonality>10</commonality>
         <options>
-          <Wolfein_AIPT_InvestigationTeamMember>5</Wolfein_AIPT_InvestigationTeamMember>
-          <Wolfein_AIPT_ProcessingTeamOperative>15</Wolfein_AIPT_ProcessingTeamOperative>
-          <Wolfein_AIPT_ProcessingTeamHeavyOperative>10</Wolfein_AIPT_ProcessingTeamHeavyOperative>
+          <Wolfein_Satellite_Inc_AIPT_InvestigationTeamMember>5</Wolfein_Satellite_Inc_AIPT_InvestigationTeamMember>
+          <Wolfein_Satellite_Inc_AIPT_ProcessingTeamOperative>15</Wolfein_Satellite_Inc_AIPT_ProcessingTeamOperative>
+          <Wolfein_Satellite_Inc_AIPT_ProcessingTeamHeavyOperative>10</Wolfein_Satellite_Inc_AIPT_ProcessingTeamHeavyOperative>
         </options>
       </li>
 
       <li>
         <kindDef>Peaceful</kindDef>
         <options>
-          <Wolfein_MegaCorpClerk>2</Wolfein_MegaCorpClerk>
-          <Wolfein_MegaCorpCivilian>5</Wolfein_MegaCorpCivilian>
+          <Wolfein_Satellite_Inc_Clerk>2</Wolfein_Satellite_Inc_Clerk>
+          <Wolfein_Satellite_Inc_Civilian>5</Wolfein_Satellite_Inc_Civilian>
         </options>
       </li>
 
       <li>
         <kindDef>Trader</kindDef>
         <traders>
-          <Wolfein_MegaCorpTrader>1</Wolfein_MegaCorpTrader>
+          <Wolfein_Satellite_Inc_Trader>1</Wolfein_Satellite_Inc_Trader>
         </traders>
         <carriers>
           <Muffalo>6</Muffalo>
@@ -294,24 +294,24 @@
           <Elephant>2</Elephant>
         </carriers>
         <guards>
-          <Wolfein_MegaCorpGuardInTrade>5</Wolfein_MegaCorpGuardInTrade>
-          <Wolfein_MegaCorpSupportInTrade>2</Wolfein_MegaCorpSupportInTrade>
+          <Wolfein_Satellite_Inc_GuardInTrade>5</Wolfein_Satellite_Inc_GuardInTrade>
+          <Wolfein_Satellite_Inc_SupportInTrade>2</Wolfein_Satellite_Inc_SupportInTrade>
         </guards>
       </li>
 
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <Wolfein_MegaCorpCivilian>20</Wolfein_MegaCorpCivilian>
-          <Wolfein_MegaCorpClerk>15</Wolfein_MegaCorpClerk>
-          <Wolfein_MegaCorpArmedClerk>10</Wolfein_MegaCorpArmedClerk>
-          <Wolfein_MegaCorpScout>8</Wolfein_MegaCorpScout>
-          <Wolfein_MegaCorpSurgeon>3</Wolfein_MegaCorpSurgeon>
-          <Wolfein_MegaCorpHacker>3</Wolfein_MegaCorpHacker>
-          <Wolfein_MegaCorpSniper>4</Wolfein_MegaCorpSniper>
-          <Wolfein_MegaCorpSupport>6</Wolfein_MegaCorpSupport>
-          <Wolfein_MegaCorpVanguard>7</Wolfein_MegaCorpVanguard>
-          <Wolfein_MegaCorpRegionalSupervisor>1</Wolfein_MegaCorpRegionalSupervisor>
+          <Wolfein_Satellite_Inc_Civilian>20</Wolfein_Satellite_Inc_Civilian>
+          <Wolfein_Satellite_Inc_Clerk>15</Wolfein_Satellite_Inc_Clerk>
+          <Wolfein_Satellite_IncArmedClerk>10</Wolfein_Satellite_IncArmedClerk>
+          <Wolfein_Satellite_Inc_Scout>8</Wolfein_Satellite_Inc_Scout>
+          <Wolfein_Satellite_Inc_Surgeon>3</Wolfein_Satellite_Inc_Surgeon>
+          <Wolfein_Satellite_Inc_Hacker>3</Wolfein_Satellite_Inc_Hacker>
+          <Wolfein_Satellite_Inc_Sniper>4</Wolfein_Satellite_Inc_Sniper>
+          <Wolfein_Satellite_Inc_Support>6</Wolfein_Satellite_Inc_Support>
+          <Wolfein_Satellite_Inc_Vanguard>7</Wolfein_Satellite_Inc_Vanguard>
+          <Wolfein_Satellite_Inc_RegionalSupervisor>1</Wolfein_Satellite_Inc_RegionalSupervisor>
         </options>
       </li>
     </pawnGroupMakers>
@@ -321,7 +321,7 @@
   <!--Comet Inc.-->
 
   <FactionDef ParentName="Wolfein_FactionBase_Satellite_Inc">
-    <defName>Satellite_Inc_Wolfein_Faction_Comet_Inc</defName>
+    <defName>Wolfein_Faction_Comet_Inc</defName>
     <label>Comet Inc</label>
     <description>.</description>
     <colorSpectrum Inherit="false">
@@ -354,11 +354,26 @@
         <kindDef>Combat</kindDef>
         <commonality>40</commonality>
         <options>
-          <Wolfein_RebelMelee>3</Wolfein_RebelMelee>
-          <Wolfein_RebelScout>4</Wolfein_RebelScout>
-          <Wolfein_RebelSoldier>6</Wolfein_RebelSoldier>
+          <Wolfein_Comet_Inc_Melee>3</Wolfein_Comet_Inc_Melee>
+          <Wolfein_Comet_Inc_Scout>4</Wolfein_Comet_Inc_Scout>
+          <Wolfein_Comet_Inc_Soldier>6</Wolfein_Comet_Inc_Soldier>
           <Wolfein_Mechanoid_RebelA>2</Wolfein_Mechanoid_RebelA>
           <Wolfein_Mechanoid_RebelB>3</Wolfein_Mechanoid_RebelB>
+        </options>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <Wolfein_Comet_Inc_Melee>20</Wolfein_Comet_Inc_Melee>
+          <Wolfein_Comet_Inc_Scout>15</Wolfein_Comet_Inc_Scout>
+          <Wolfein_Comet_Inc_Soldier>10</Wolfein_Comet_Inc_Soldier>
+          <Wolfein_Satellite_Inc_Scout>8</Wolfein_Satellite_Inc_Scout>
+          <Wolfein_Satellite_Inc_Surgeon>3</Wolfein_Satellite_Inc_Surgeon>
+          <Wolfein_Satellite_Inc_Hacker>3</Wolfein_Satellite_Inc_Hacker>
+          <Wolfein_Satellite_Inc_Sniper>4</Wolfein_Satellite_Inc_Sniper>
+          <Wolfein_Satellite_Inc_Support>6</Wolfein_Satellite_Inc_Support>
+          <Wolfein_Satellite_Inc_Vanguard>7</Wolfein_Satellite_Inc_Vanguard>
+          <Wolfein_Satellite_Inc_RegionalSupervisor>1</Wolfein_Satellite_Inc_RegionalSupervisor>
         </options>
       </li>
     </pawnGroupMakers>

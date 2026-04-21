@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <!--Comet Inc-->
+    <!--Comet Inc士兵-->
+    <PawnKindDef ParentName="Wolfein_PawnBase_Comet_Inc">
+        <defName>Wolfein_Comet_Inc_Melee</defName>
+        <label>Wolfein Comet Inc Scout</label>
+        <combatPower>120</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <factionLeader>false</factionLeader>
+        <apparelMoney>900~1600</apparelMoney>
+        <apparelTags>
+            <li>Wolfein_OnSkin_RebelCombat</li>
+            <li>Wolfein_OverHead_Combat</li>
+            <li>Wolfein_Shell_RebelCombatII</li>
+            <li>Wolfein_Underwear_BlackWear</li>
+            <li>Wolfein_Underwear_Combat</li>
+        </apparelTags>
+        <specificApparelRequirements>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_OnSkin_RebelCombat</requiredTag>
+            </li>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_Underwear_BlackWear</requiredTag>
+            </li>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_Underwear_Combat</requiredTag>
+            </li>
+        </specificApparelRequirements>
+        <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+        <weaponTags>
+            <li>Wolfein_RebelAlloyDagger</li>
+        </weaponTags>
+        <weaponMoney>800~2000</weaponMoney>
+        <backstoryFiltersOverride Inherit="false">
+            <li>
+                <categories>
+                    <li>Wolfein_ChildGeneral</li>
+                    <li>Wolfein_ResistanceArmy</li>
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="Wolfein_PawnBase_Comet_Inc">
+        <defName>Wolfein_Comet_Inc_Scout</defName>
+        <label>Wolfein Comet Inc Scout</label>
+        <combatPower>160</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <factionLeader>false</factionLeader>
+        <apparelMoney>900~1600</apparelMoney>
+        <apparelTags>
+            <li>Wolfein_OnSkin_RebelCombat</li>
+            <li>Wolfein_OverHead_Combat</li>
+            <li>Wolfein_Shell_RebelCombatII</li>
+            <li>Wolfein_Underwear_BlackWear</li>
+            <li>Wolfein_Underwear_Combat</li>
+        </apparelTags>
+        <specificApparelRequirements>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_OnSkin_RebelCombat</requiredTag>
+            </li>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_Underwear_BlackWear</requiredTag>
+            </li>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_Underwear_Combat</requiredTag>
+            </li>
+        </specificApparelRequirements>
+        <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+        <weaponTags>
+            <li>Wolfein_RebelLight</li>
+        </weaponTags>
+        <weaponMoney>800~2000</weaponMoney>
+        <backstoryFiltersOverride Inherit="false">
+            <li>
+                <categories>
+                    <li>Wolfein_ChildGeneral</li>
+                    <li>Wolfein_ResistanceArmy</li>
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="Wolfein_PawnBase_Comet_Inc">
+        <defName>Wolfein_Comet_Inc_Soldier</defName>
+        <label>Wolfein Comet Inc Soldier</label>
+        <combatPower>240</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <factionLeader>false</factionLeader>
+        <apparelMoney>900~1600</apparelMoney>
+        <apparelTags>
+            <li>Wolfein_OnSkin_RebelCombat</li>
+            <li>Wolfein_OverHead_Combat</li>
+            <li>Wolfein_Underwear_BlackWear</li>
+            <li>Wolfein_Underwear_Combat</li>
+            <li>Wolfein_Shell_RebelCombatII</li>
+            <li>Wolfein_Shell_FlakJacket</li>
+            <li>Wolfein_Shell_HeavyFlakJacket</li>
+        </apparelTags>
+        <specificApparelRequirements>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_OnSkin_RebelCombat</requiredTag>
+            </li>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_Underwear_BlackWear</requiredTag>
+            </li>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_Underwear_Combat</requiredTag>
+            </li>
+        </specificApparelRequirements>
+        <apparelAllowHeadgearChance>0.3</apparelAllowHeadgearChance>
+        <weaponTags>
+            <li>Wolfein_RebelStandard</li>
+        </weaponTags>
+        <weaponMoney>1000~2000</weaponMoney>
+        <backstoryFiltersOverride Inherit="false">
+            <li>
+                <categories>
+                    <li>Wolfein_ChildGeneral</li>
+                    <li>Wolfein_ResistanceArmy</li>
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!--抵抗军士兵(毒气)-->
+    <PawnKindDef ParentName="Wolfein_PawnBase_Comet_Inc">
+        <defName>Wolfein_Comet_Inc_GasSoldier</defName>
+        <label>Wolfein Comet Inc Gas Soldier</label>
+        <combatPower>240</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <factionLeader>false</factionLeader>
+        <apparelMoney>900~1600</apparelMoney>
+        <apparelTags>
+            <li>Wolfein_OnSkin_RebelCombat</li>
+            <li>Wolfein_OverHead_Combat</li>
+            <li>Wolfein_Underwear_BlackWear</li>
+            <li>Wolfein_Underwear_Combat</li>
+            <li>Wolfein_Shell_RebelCombatII</li>
+            <li>Wolfein_Shell_FlakJacket</li>
+            <li>Wolfein_Shell_HeavyFlakJacket</li>
+            <li>Wolfein_GasMask</li>
+        </apparelTags>
+        <specificApparelRequirements>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_OnSkin_RebelCombat</requiredTag>
+            </li>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_Underwear_BlackWear</requiredTag>
+            </li>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_Underwear_Combat</requiredTag>
+            </li>
+            <li>
+                <bodyPartGroup>Mouth</bodyPartGroup>
+                <requiredTag>Wolfein_GasMask</requiredTag>
+            </li>
+        </specificApparelRequirements>
+        <apparelAllowHeadgearChance>0.3</apparelAllowHeadgearChance>
+        <weaponTags>
+            <li>Wolfein_RebelStandard</li>
+        </weaponTags>
+        <weaponMoney>1000~2000</weaponMoney>
+        <backstoryFiltersOverride Inherit="false">
+            <li>
+                <categories>
+                    <li>Wolfein_ChildGeneral</li>
+                    <li>Wolfein_ResistanceArmy</li>
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="Wolfein_PawnBase_Comet_Inc">
+        <defName>Wolfein_Comet_Inc_Soldier_HeavyArmored</defName>
+        <label>Wolfein Comet Inc Heavy-Armored Soldier</label>
+        <combatPower>300</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <factionLeader>false</factionLeader>
+        <apparelMoney>2500~3000</apparelMoney>
+        <apparelTags>
+            <li>Wolfein_OnSkin_RebelCombat</li>
+            <li>Wolfein_Underwear_Combat</li>
+        </apparelTags>
+        <specificApparelRequirements>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_Shell_RebelPowerArmor</requiredTag>
+            </li>
+            <li>
+                <bodyPartGroup>FullHead</bodyPartGroup>
+                <requiredTag>Wolfein_OverHead_RebelPowerArmor</requiredTag>
+            </li>
+        </specificApparelRequirements>
+        <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
+        <weaponTags>
+            <li>Wolfein_RebelStandard</li>
+        </weaponTags>
+        <weaponMoney>1000~3000</weaponMoney>
+        <backstoryFiltersOverride Inherit="false">
+            <li>
+                <categories>
+                    <li>Wolfein_ChildGeneral</li>
+                    <li>Wolfein_ResistanceArmy</li>
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+    <!--抵抗军逃兵-->
+    <PawnKindDef ParentName="Wolfein_PawnBase_Comet_Inc">
+        <defName>Wolfein_Comet_Inc_Deserter</defName>
+        <label>Wolfein Comet Inc Deserter</label>
+        <combatPower>180</combatPower>
+        <itemQuality>Normal</itemQuality>
+        <isFighter>true</isFighter>
+        <factionLeader>false</factionLeader>
+        <apparelMoney>900~1600</apparelMoney>
+        <apparelTags>
+            <li>Wolfein_OnSkin_RebelCombat</li>
+            <li>Wolfein_OverHead_Combat</li>
+            <li>Wolfein_Shell_RebelCombatII</li>
+            <li>Wolfein_Underwear_BlackWear</li>
+            <li>Wolfein_Underwear_Combat</li>
+        </apparelTags>
+        <specificApparelRequirements>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_OnSkin_RebelCombat</requiredTag>
+            </li>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_Underwear_BlackWear</requiredTag>
+            </li>
+            <li>
+                <bodyPartGroup>Torso</bodyPartGroup>
+                <requiredTag>Wolfein_Underwear_Combat</requiredTag>
+            </li>
+        </specificApparelRequirements>
+        <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+        <weaponTags>
+            <li>Wolfein_RebelAlloyDagger</li>
+        </weaponTags>
+        <weaponMoney>800~2000</weaponMoney>
+        <backstoryFiltersOverride Inherit="false">
+            <li>
+                <categories>
+                    <li>Wolfein_ChildGeneral</li>
+                    <li>Wolfein_ResistanceArmy_Special</li>
+                </categories>
+            </li>
+        </backstoryFiltersOverride>
+    </PawnKindDef>
+
+</Defs>
